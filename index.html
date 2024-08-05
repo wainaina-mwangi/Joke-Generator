@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random joke generator</title>
+    <link rel="stylesheet" href="./app/css/style.css">
+
+  <style>
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color:#3e07d6;
+}
+
+.wrapper{
+    width: 80vh;
+    padding: 50px 40px;
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+}
+
+span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+}
+
+P{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400px;
+    text-align: center;
+    line-height: 35px;
+    word-break: break-word;
+    margin: 30px 0;
+
+}
+
+button{
+    display: block;
+    background-color: yellow;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 20px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 2PX solid black;
+}
+
+
+
+
+  </style>
+</head>
+<body>
+    
+ <div class="wrapper">
+    <span>&#128514;</span>
+    <p id="joke"></p>
+        <button id="btn">GET JOKE</button>
+ </div>
+
+ <p>Designed and made by Erastus Wainaina</p>
+
+
+    <script src="./app/js/main.js"></script>
+</body>
+</html>
